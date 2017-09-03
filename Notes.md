@@ -27,7 +27,8 @@ XCPlaygroundSharedDataDirectoryURL
 ```
 import XCPlaygroud
 
-let sharedFileURL = XCPlaygroundSharedDataDirectoryURL.URLByAppendingPathComponent("example.json")```
+let sharedFileURL = XCPlaygroundSharedDataDirectoryURL.URLByAppendingPathComponent("example.json")
+```
 注意：你需要创建~/Documents/Shared Playground Data目录，并将资源放到此目录下，才能在 Playground 中获取到
 
 [请叫我小锅](http://www.jianshu.com/p/8b37c3ef645c)
